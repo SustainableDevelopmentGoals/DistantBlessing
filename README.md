@@ -4,6 +4,8 @@ Part of the Sustainable Development Goals rapid prototyping series.
 
 **Sustainable Development Goal #1: No poverty**.
 
+<img src="images/1.svg" width="15%">
+
 Deliver donations directly to a location of your choosing. 
 
 Add the amount to deliver, additional instructions and the specific location to drop off to by placing a marker on the map. After confirming, a push message is sent to the deliverer which shows all information about the delivery together with the option to accept the delivery.
@@ -13,10 +15,10 @@ Application consists of a web interface for the donator, a web interface for the
 Server is created using Nodejs (with Express) and handles REST API calls as well as Websocket connections for push notifications.
 
 *Donator web application.*
-![Donator webapp](clientfilled.png "Donator Webapp")
+![Donator webapp](images/clientfilled.png "Donator Webapp")
 
 *Deliver web application.*
-![Delivery webapp](deliveryfilled.png "Deliver Webapp")
+![Delivery webapp](images/deliveryfilled.png "Deliver Webapp")
 
 *Deliverer map interaction.*
-![Accept interaction](test.gif "Map interactions")
+![Accept interaction](images/test.gif "Map interactions")

@@ -12,6 +12,11 @@ Application consists of a web interface for the donator, a web interface for the
 
 Server is created using Nodejs (with Express) and handles REST API calls as well as Websocket connections for push notifications.
 
+*Donator web application.*
 ![Donator webapp](clientfilled.png "Donator Webapp")
 
+*Deliver web application.*
 ![Delivery webapp](deliveryfilled.png "Deliver Webapp")
+
+*Deliverer map interaction.*
+![Accept interaction](test.gif "Map interactions")

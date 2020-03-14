@@ -15,3 +15,5 @@ Server is created using Nodejs (with Express) and handles REST API calls as well
 ![Donator webapp](clientfilled.png "Donator Webapp")
 
 ![Delivery webapp](deliveryfilled.png "Deliver Webapp")
+
+![Accept interaction](test.gif "Map interactions")

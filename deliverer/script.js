@@ -12,7 +12,7 @@ socket.addEventListener('message', function (event) {
 var index = 1
 
 var view = new ol.View({
-        center: ol.proj.fromLonLat([38.75, 8.98]),
+        center: ol.proj.fromLonLat([38.70, 9.01]),
         zoom: 12
       })
 

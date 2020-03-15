@@ -9,6 +9,8 @@ html,body {
 	background-color: #46b3e6	;
 	width:30%;
 	height:100%;
+	min-width: 200px;
+	max-width: 500px;
 	position: absolute;
 	z-index: 10;
 	text-align: center;
@@ -22,11 +24,13 @@ h1 {
 	text-align: center;
 	padding-bottom: 20px;
 	border-bottom: 1px solid white;
+	font-size:calc(17px + 1.5vw);
 }
 
 h3,h4 {
 	padding-bottom: 0px;
 	margin-bottom: 10px;
+	font-size:calc(12px + 0.5vw);
 }
 
 button {
@@ -41,7 +45,8 @@ button {
 	display: inline-block;
 	font-family: 'Sen', sans-serif;
 	font-size: 15px;
-	width: 200px;
+	width: 90%;
+	max-width: 200px;
 	/*transition: all 0.4s ease 0s;*/
 }
 
@@ -75,8 +80,10 @@ input,textarea{
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
+	width: 90%;
+	max-width: 300px;
 }
 
 input[type="text"]{
-	width: 250px;
+	width: 90%;
 }

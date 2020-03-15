@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/css/ol.css" type="text/css">
 	<link rel="stylesheet" href="style.css">
 	<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/build/ol.js"></script>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div id="container">
@@ -21,8 +21,8 @@
 		<input id="adding_name" type="text" placeholder="Anonymous">
 		<h3>Input amount to send</h3>
 		<input id="adding_amount" type="number" step="0.1" placeholder="Amount in dollars">
-		<h3>Additional instructions</h3>
-		<textarea id="instructions" type="text" rows="5" cols="30" placeholder="Examples: 'Please give it to a woman holding a child.', 'Give it to a construction worker.' 'Give it to a teenager'"></textarea>
+		<h3>Additional instructions for delivery</h3>
+		<textarea id="instructions" type="text" rows="5" cols="30" placeholder="Examples: 'Please give it to a woman holding a child.', 'Give it to a teenager'"></textarea>
 		<h4>Select dropoff location on map</h4>
 		<button style="display:none;" id="dropoff">Send blessing</button>
 	</div>

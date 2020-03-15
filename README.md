@@ -22,4 +22,4 @@ Server is created using Nodejs (with Express) and handles REST API calls as well
 <img src="images/delivery.png" width="75%">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/delivermobile.png" width="20%">
 *Delivery map interaction.*
 
-<img src="images/test.gif" width="50%">
+<img src="images/test.gif" width="75%">
